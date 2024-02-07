@@ -1,3 +1,3 @@
 # Pomodoro-Timer
 
-Faça o download do projeto e abra o arquivo index.html
+Faça o download do projeto e abra o arquivo index.html usando seu navegador
