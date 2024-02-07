@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pomodoro</title>
+        <link rel="stylesheet" href="/pages/home/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <body>
+        <header>
+            <h1>Pomodoro</h1>
+            <h2>Relax and chill</h2>
+        </header>
+        
+        <main>
+            <ul id="modes">
+                <li id="shortBreak">short break</li>
+                <li id="longBreak">long break</li>
+                <li id="customBreak">custom break</li>
+            </ul>
+
+            <ul id="timer">
+                <li id="minutes">25</li><li id="separador">:</li><li id="seconds">00</li>
+            </ul>
+
+            <ul id="do-it">
+                <li id="startTimer">start</li>
+                <li id="restartTimer">restart</li>
+            </ul>
+        </main>
+
+        <div id="space">
+            <iframe id="spotifyPlayer" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5SDPei4m0IuABIYRsDJcBC?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <script src="./pages/home/index.js"></script>
+    </body>
+</html>
